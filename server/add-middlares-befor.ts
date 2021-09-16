@@ -7,7 +7,7 @@ import { oakCors } from "https://deno.land/x/cors@v1.2.2/mod.ts";
 
 app.use(oakCors({
   origin:[
-    "http://localhost:3000","https://todo-multiuser-oak.herokuapp.com","https://svelte-oak-app.netlify.app/"
+    "http://localhost:3000","https://todo-multiuser-oak.herokuapp.com","https://svelte-oak-app.netlify.app"
   ], 
   allowedHeaders: [
     'Content-Type',

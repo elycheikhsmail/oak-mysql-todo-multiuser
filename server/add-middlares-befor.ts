@@ -6,7 +6,9 @@ import { oakCors } from "https://deno.land/x/cors@v1.2.2/mod.ts";
 //app.keys = ["userId"]
 
 app.use(oakCors({
-  origin:true, 
+  origin:[
+    "http://localhost:3000","https://todo-multiuser-oak.herokuapp.com"
+  ], 
   allowedHeaders: [
     'Content-Type',
     'Authorization',
